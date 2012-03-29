@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 use Net::Telnet;
 
+#Usage : ./activateSession.pl x86hlrfe4 rtp99 rtp99 lup_trace
+
 $machinename = $ARGV[0];
 chomp($machinename);
 print "Machine : $machinename\n";
