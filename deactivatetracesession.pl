@@ -2,6 +2,7 @@
 use Net::Telnet;
 
 #Usage : perl deactivatesession.pl <mahinename> <username> <password> <sessionName>
+#e.g   : perl deactivatesession.pl x86hlrfe4  rtp99 rtp99 shh_trace
 
 $machinename = $ARGV[0];
 chomp($machinename);
